@@ -38,10 +38,18 @@ namespace Trabalho_Animal_
         private void button3_Click(object sender, EventArgs e)
         {
             // Cria uma nova instância de Form2
-            Form4 novoForm = new Form4();
+            Form4 novoForm1 = new Form4();
 
             // Exibe o novo formulário
-            novoForm.Show();
+            novoForm1.Show();
+        }
+
+        private void button3_Click_1(object sender, EventArgs e)
+        {
+            Form4 novoForm3 = new Form4();
+
+            // Exibe o novo formulário
+            novoForm3.Show();
         }
     }
 }
